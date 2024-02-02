@@ -8,6 +8,6 @@ namespace TrackerLibrary
 {
     internal class DayModel
     {
-        public int WrittenWords { get; set; }
+        public int WordsWritten { get; set; }
     }
 }
