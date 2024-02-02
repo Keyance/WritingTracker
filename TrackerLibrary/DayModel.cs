@@ -8,6 +8,9 @@ namespace TrackerLibrary
 {
     public class DayModel
     {
+        /// <summary>
+        /// Reprsents the number of words that have been written in this day.
+        /// </summary>
         public int WordsWritten { get; set; }
     }
 }
