@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TrackerLibrary
 {
-    internal class DayModel
+    public class DayModel
     {
         public int WordsWritten { get; set; }
     }
