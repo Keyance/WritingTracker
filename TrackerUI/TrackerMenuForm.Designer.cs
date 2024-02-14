@@ -28,25 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            selectProjectLabel = new Label();
             createNewProjectButton = new Button();
             selectProjectComboBox = new ComboBox();
             selectMonthLabel = new Label();
             selectMonthComboBox = new ComboBox();
             openProjectButton = new Button();
             viewProjectDataButton = new Button();
+            selectProjectLabel = new Label();
             SuspendLayout();
-            // 
-            // selectProjectLabel
-            // 
-            selectProjectLabel.AutoSize = true;
-            selectProjectLabel.Font = new Font("Yu Mincho", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            selectProjectLabel.Location = new Point(85, 23);
-            selectProjectLabel.Margin = new Padding(4, 0, 4, 0);
-            selectProjectLabel.Name = "selectProjectLabel";
-            selectProjectLabel.Size = new Size(137, 26);
-            selectProjectLabel.TabIndex = 0;
-            selectProjectLabel.Text = "Select project:";
             // 
             // createNewProjectButton
             // 
@@ -119,6 +108,17 @@
             viewProjectDataButton.Text = "View Project Data";
             viewProjectDataButton.UseVisualStyleBackColor = true;
             // 
+            // selectProjectLabel
+            // 
+            selectProjectLabel.AutoSize = true;
+            selectProjectLabel.Font = new Font("Yu Mincho", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            selectProjectLabel.Location = new Point(85, 23);
+            selectProjectLabel.Margin = new Padding(4, 0, 4, 0);
+            selectProjectLabel.Name = "selectProjectLabel";
+            selectProjectLabel.Size = new Size(137, 26);
+            selectProjectLabel.TabIndex = 0;
+            selectProjectLabel.Text = "Select project:";
+            // 
             // TrackerMenuForm
             // 
             AutoScaleDimensions = new SizeF(12F, 26F);
@@ -141,13 +141,12 @@
         }
 
         #endregion
-
-        private Label selectProjectLabel;
         private Button createNewProjectButton;
         private ComboBox selectProjectComboBox;
         private Label selectMonthLabel;
         private ComboBox selectMonthComboBox;
         private Button openProjectButton;
         private Button viewProjectDataButton;
+        private Label selectProjectLabel;
     }
 }
